@@ -35,3 +35,13 @@
 .ear{
     font-size:20px;
 }
+@media(max-width:559px){
+    .card{
+        width: 40%;
+    }
+}
+@media(max-width:290px){
+    .card{
+        width: 80%;
+    }
+}

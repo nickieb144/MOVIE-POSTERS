@@ -9,7 +9,7 @@ const allFilm = [
     },
     {
         'id':2,
-        title:'LITTLE MERMAID',
+        title:'MERMAID',
         desc:'Ariel,a mermaid with a golden voice,leaves her world under the sea to live on land,with the help of her friends',
         image:
             "https://th.bing.com/th/id/OIP.BYBFWFEcrsKL89KuARU7AgHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.5&pid=1.7",
@@ -121,17 +121,17 @@ const createProduct = () => {
   const button= document.getElementById("button");
   const film= document.getElementById("new-card");
   const createProduct2 = () => {
-    film.map((filmPoster) => {
+    film.map((moviePoster) => {
       const newCard = document.createElement("div");
       newProducts.appendChild(newCard);
       const image = document.createElement("img");
-      image.src = filmPoster.image;
+      image.src = moviePoster.image;
       const title = document.createElement("h2");
-      title.innerHTML = filmPoster.title;
+      title.innerHTML = moviePoster.title;
       const description = document.createElement("p");
-      description.innerHTML = filmPoster.desc;
+      description.innerHTML = moviePoster.desc;
       const year = document.createElement("p");
-      price.innerHTML = filmPoster.year;
+      price.innerHTML = moviePoster.year;
       // const play = document.createElement("button");
       // play.innerHTML = "Play";
   
