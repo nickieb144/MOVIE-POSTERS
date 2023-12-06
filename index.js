@@ -98,7 +98,7 @@ const allFilm = [
         year:2023.
     },
 ];
-const filmcont= document.getElementById("filmPoster");
+const filmcont= document.getElementById("moviePoster");
 console.log(filmcont);
 
 const createProduct = () => {
